@@ -1,2 +1,0 @@
-# AGV
-simulation based optimization
