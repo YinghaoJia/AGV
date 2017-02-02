@@ -1,0 +1,22 @@
+%%
+clear
+close
+clc
+%initialization
+%environment setting
+
+T=60*60*2;%以秒为单位，先按最大时间为2h来看，共计7200个单位
+M=20;%AGV数量
+O=1000;%订单数量
+
+N=zeros(20,20,T);%路网结构，每一个点的地理坐标+时间钟，初始化为0，后面用数字记录小车的位置
+V=round(rand(M,2)*size(N,1));%每个AGV的位置，变化以顺序来确定
+Order=round(rand(O,4)*size(N,1));%生成了O的订单，四个数字分别代表起点和终点
+
+%parameter setting
+
+
+%%
+%simulation
+for k=1:O
+end
